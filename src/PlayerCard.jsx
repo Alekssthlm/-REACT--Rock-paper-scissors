@@ -1,10 +1,10 @@
 export default function PlayerCard( {choice} ){
 
-  const rockImg = "src/assets/rock.png"
-  const paperImg = "src/assets/paper.png"
-  const scissorImg = "src/assets/scissor.png"
-  const playerImg = "src/assets/player.png"
-  const computerImg = "src/assets/computer.png"
+  const rockImg = "/assets/rock.png"
+  const paperImg = "/assets/paper.png"
+  const scissorImg = "/assets/scissor.png"
+  const playerImg = "/assets/player.png"
+  const computerImg = "/assets/computer.png"
   let source
 
   switch (choice) {
