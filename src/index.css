@@ -1,0 +1,90 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(255, 149, 0);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.site-wrap{
+  background-color: white;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 15px;
+}
+
+@media (max-width: 64rem){
+  .site-wrap{
+    padding: 1rem;
+  }
+}
+
+.card-wrap{
+  display: flex;
+  text-align: center;
+  font-size: 1rem;
+  gap: 1rem;
+  margin: 0 0 1rem;
+}
+
+.image-holder{
+  width: 200px;
+  margin: 0 0 0.5rem;
+  border: 2px solid black;
+}
+
+@media (max-width: 64rem){
+  .image-holder{
+    width: 150px;
+  }
+}
+
+.image-card{
+  width: 100%;
+}
+
+.button-wrap{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.button-wrap button {
+  padding: 0.5rem 1rem ;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.reset-btn{
+  padding: 0.2rem 0.5rem;
+  background: none;
+  color: red;
+  border-color: red;
+  border-radius: 25px;
+}
+
+.result{
+  font-size: 2rem;
+  background-color: lightgrey;
+  width: 80%;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+.win{
+background-color: greenyellow;
+}
+
+.lose{
+background-color: red;
+}
